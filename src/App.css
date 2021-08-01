@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white:#fff;
+  --primary-orange:#f9ab00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  font-family: "Roboto Condensed", san-serif;
+}
+/* nav bar */
+nav{
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a.nav-link {
+  font-weight: 700;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-bottom: 0.1875rem solid #212529
+}
+.navbar-brand{
+  color: var(--primary-orange) !important;
+  font-weight: 700;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+
+.donld-icon{
+  padding-left: 0.625rem;
+}
+
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange) ;
+}
+
+
+
+/* hearder wrapper */
+
+.header-wrapper{
+  position: relative;
+  height: 90vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-info{
+  position: absolute;
   display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", san-serif;
+  z-index: 1;
+}
+.main-info h1{
+  font-weight: 700;
+  color: #f9ab00;
+  text-transform: uppercase;
+}
+
+
+/* typed text */
+.typed-text{
+  font-size: 2rem;
+  color: aqua;
+}
+
+@media(max-width:768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem;
+  }
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+
+
+.btn-main-offer{
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding:0.625rem 0.75rem 0.75rem 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
   color: white;
+  margin: 2rem;
+  letter-spacing: 2px;
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  color: #fff;
+  transition: 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+/* particles */
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width:768px){
+  .particles-canvas{
+    display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* npm i react-typed */
+
+/* npm i react-particles-js */
+
+/* npm install bootstrap */
