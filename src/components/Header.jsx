@@ -4,7 +4,8 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Full Stack Web Developer</h1>
+            
+                <h1>Hi, I am Uday Kumar</h1>
                 <Typed className="typed-text"
                 strings={["Full Stack Web Developer"]}
                 typeSpeed={40}
