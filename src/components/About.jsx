@@ -15,23 +15,6 @@ const About = () => {
                 </div>
             </div>
         </div>
-        // <div class="about-section">
-        //     <div className="profile-pic">
-        //         <img className="profile-image" src="https://media-exp1.licdn.com/dms/image/C5603AQFgbr3djRuu9A/profile-displayphoto-shrink_800_800/0/1615875058102?e=1631750400&v=beta&t=YbMY7PXB940KCrKajTXsFM74eAKwNheBgEVI5MZ-kK4" alt="" />
-        //     </div>
-        //     <div className="Summary">
-        //         <p className="p-summary">
-        //             A Full Stack Developer skilled in MERN stack, able to apply programming skills to solve complex challenges and work on technologies like HTML, CSS, JavaScript, React, Redux, Material-UI.
-        //             A Full Stack Developer skilled in MERN stack, able to apply programming skills to solve complex challenges and work on technologies like HTML, CSS, JavaScript, React, Redux, Material-UI.
-        //             A Full Stack Developer skilled in MERN stack, able to apply programming skills to solve complex challenges and work on technologies like HTML, CSS, JavaScript, React, Redux, Material-UI.
-        //         </p>
-        //         <div className="icon-div">
-                    
-
-
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
 
