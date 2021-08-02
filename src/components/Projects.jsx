@@ -16,12 +16,10 @@ const Projects = () => {
                 />
                 <div class="card-body">
                   <h3>Premier league clone</h3>
-                  <p class="card-text">
-                    The Premier League, often referred to as the English Premier
+                  <p class="card-text">The Premier League, often referred to as the English Premier
                     League or the EPL (legal name: The Football Association
                     Premier League Limited), is the top level of the English
                     football league system.
-                    <br />
                   </p>
 
                   <div class="d-flex justify-content-between align-items-center">
@@ -69,10 +67,11 @@ const Projects = () => {
                 />
                 <div class="card-body">
                   <h3>Kindemeal.my clone</h3>
-                  <p class="card-text">
-                    Kindmeal.my is a website that has a lot of information on
+                  <p class="card-text">Kindmeal.my is a website that has a lot of information on
                     everything that is related to food with a wide variety of
-                    information.It also provides latest news that is going around the world.
+                    information.
+                    <br />
+                    <br />
                   </p>
 
                   <div class="d-flex justify-content-between align-items-center">
@@ -120,8 +119,7 @@ const Projects = () => {
                 />
                 <div class="card-body">
                   <h3>Google's digital garage clone</h3>
-                  <p class="card-text">
-                    The Digital Garage is a non-profit nationwide programme from
+                  <p class="card-text">The Digital Garage is a non-profit nationwide programme from
                     Google delivering free digital skills training via an online
                     learning platform.
                     <br />
