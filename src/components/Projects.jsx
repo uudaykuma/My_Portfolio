@@ -21,6 +21,7 @@ const Projects = () => {
                     League or the EPL (legal name: The Football Association
                     Premier League Limited), is the top level of the English
                     football league system.
+                    <br />
                   </p>
 
                   <div class="d-flex justify-content-between align-items-center">
