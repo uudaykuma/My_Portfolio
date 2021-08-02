@@ -36,3 +36,6 @@
   text-decoration: none;
   color: #03203c;
 }
+.contact_h3_headings:hover{
+    text-decoration: underline;
+}

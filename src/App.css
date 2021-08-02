@@ -13,6 +13,7 @@ body{
 /* nav bar */
 nav{
   z-index: 2;
+  
 }
 
 nav a.nav-link {
