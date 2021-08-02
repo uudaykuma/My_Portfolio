@@ -1,7 +1,31 @@
-.about-section{
-  width: 100%;
-  height: 300px;
-  border: 1px solid black;
+.about-section {
+  width: 60%;
+  margin: auto;
   margin-top: 50px;
-  text-align: center;
+}
+
+.profile-pic {
+  width: 280px;
+  height: 40vh;
+  border-radius: 50%;
+}
+.github-logo,
+.linkedin-logo {
+  margin: 10px;
+  color: black;
+}
+.linkedin-logo:hover,.github-logo:hover {
+  transition: 1.5s;
+  transform: rotate(360deg);
+}
+.summary-text{
+  font-size: 1rem;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+@media(max-width:786px){
+  .about-head{
+    padding-top: 30px;
+  }
 }

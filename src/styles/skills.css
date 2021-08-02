@@ -1,6 +1,12 @@
 .skill-section {
   text-align: center;
-  
+  margin-top: 50px;
+  position: static;
+  background: whitesmoke;
+}
+.skill-section>h1{
+padding: 20px;
+font-weight: 400;
 }
 .skills-logo {
   background: #46b2e0;
@@ -40,4 +46,12 @@
   font-weight: 500 !important;
   font-size: 15px !important;
   text-align: center;
+}
+.tech_stack_div{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.t-s-heading{
+  padding: 20px;
 }

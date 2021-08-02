@@ -1,0 +1,38 @@
+.conatct-section {
+  width: 100%;
+  padding: 50px;
+  background: rgb(153, 151, 151);
+  text-align: center;
+}
+.conatct-div {
+  width: 70%;
+  gap: 20px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.rounded-circle {
+  color: #03203c;
+  padding: 20px;
+}
+.contact_head {
+  padding: 15px;
+  color: #03203c;
+}
+.contact_h2_headings {
+  color: #03203c;
+}
+.contact_h3_headings {
+  padding: 10px;
+  color: #03203c;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact_h3_headings > a {
+  text-decoration: none;
+  color: #03203c;
+}

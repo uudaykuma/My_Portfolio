@@ -3,3 +3,11 @@
   width: 100%;
   display: block;
 }
+.project-section{
+  background: whitesmoke;
+}
+.project-section>h1{
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+}

@@ -36,7 +36,7 @@ const Navbar = () => {
               <a className="nav-link" onClick={hadnleScrolling} href="#contact">contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link resume" href="#resume">resume <span className="donld-icon"><i class="fas fa-download"></i></span></a>
+              <a className="nav-link resume" href="https://drive.google.com/file/d/1YDBgoXNkAIdN9S4ZP3FZVUeuxoA6RIqU/view?usp=sharing" target="_blank" rel="noreferrer">resume <span className="donld-icon"><i class="fas fa-download"></i></span></a>
             </li>
           </ul>
         </div>
