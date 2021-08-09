@@ -17,7 +17,7 @@ const Contact = () => {
                         <div class="col-lg-4 contact-info">
                             <i class="fas fa-phone-volume fa-3x rounded-circle"></i>
                             <h2 className="contact_h2_headings">Mobile Number!</h2>
-                            <p className="contact_h3_headings">7488209296</p>
+                            <p className="contact_h3_headings">7697541045</p>
                         </div>
                         <div class="col-lg-4 contact-info">
                             <i class="fab fa-linkedin-in fa-3x rounded-circle"></i>
