@@ -5,7 +5,7 @@ const About = () => {
         <div className="about-section">
             <div class="row featurette">
                 <div class="col-md-5 order-md-1">
-                    <img className="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5603AQFgbr3djRuu9A/profile-displayphoto-shrink_800_800/0/1615875058102?e=1631750400&v=beta&t=YbMY7PXB940KCrKajTXsFM74eAKwNheBgEVI5MZ-kK4" alt="" />
+                    <img className="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5603AQFgbr3djRuu9A/profile-displayphoto-shrink_800_800/0/1615875058102?e=1637193600&v=beta&t=PxykYovbvcqmQ9-Fy8qbxwaPM8T2lqNV_wl0rfa6nl4" alt="" />
                 </div>
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading about-head">ABOUT</h2>
